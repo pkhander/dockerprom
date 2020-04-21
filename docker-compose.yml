@@ -4,7 +4,7 @@ services:
 
   prometheus:
     image : prom/prometheus
-     volumes:
+    volumes:
      - ./prometheus/:/etc/prometheus/
      - prometheus_data:/prometheus
     command:
